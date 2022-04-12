@@ -1,0 +1,63 @@
+
+.flex-container {
+    display: flex;
+    justify-content: row;
+    background-color: white;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+  }
+ 
+
+
+
+table.table { width: 34.5%; }
+
+
+
+.table th, table td  { 
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 0.25em;
+}
+
+.table th {
+  justify-content: center;
+  line-height: 40px;
+  border: 0.5px solid rgba(3,3,3,0.2);
+  border-left: none;
+  background-color: #f2f2f2;
+}
+
+table th:last-child {
+  border-right: 0;
+}
+
+.table td {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.25em;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+} 
+
+    tr { 
+      display: flex; 
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: 0.5em 0;
+      
+    }
+    td, th {
+      flex: 1 1 150px;
+      
+    }
